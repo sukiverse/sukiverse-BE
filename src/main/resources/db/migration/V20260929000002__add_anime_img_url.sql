@@ -1,0 +1,2 @@
+ALTER TABLE anime
+    ADD COLUMN img_url VARCHAR(500) NULL AFTER title;
