@@ -1,0 +1,21 @@
+language: "ko-KR"
+
+reviews:
+  profile: "chill"
+  high_level_summary: true
+  poem: false
+  collapse_walkthrough: false
+  auto_review:
+    enabled: true
+    auto_incremental_review: true
+    base_branches:
+      - "main"
+      - "develop"
+  path_filters:
+    - "!gradle/**"
+    - "!.idea/**"
+    - "!build/**"
+    - "!**/*.jar"
+
+chat:
+  auto_reply: true
